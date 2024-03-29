@@ -76,6 +76,6 @@ function getRandomDistractors(words, count) {
   return selectedWords;
 }
 
-app.listen(10000, () => {
-    console.log("running on port 10000");
+app.listen(3001, () => {
+    console.log("running on port 3001");
 });
